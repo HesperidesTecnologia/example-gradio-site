@@ -11,4 +11,4 @@ demo = gr.Interface(
     outputs=["text"],
 )
 
-demo.launch(root_path="https://gradio.thermos280.messwithdns.com/")
+demo.launch(root_path="https://gradio.thermos280.messwithdns.com/", pwa=True)
